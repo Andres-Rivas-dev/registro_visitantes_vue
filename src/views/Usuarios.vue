@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Lista de Usuarios</h1>
+    <h1 class="form-title">Lista de Usuarios</h1>
     <table>
       <thead>
         <tr>
@@ -69,5 +69,9 @@ thead th, tbody td {
 thead th {
   background-color: #f2f2f2;
   text-align: left;
+}
+
+.form-title {
+  text-align: center; /* Centrar el título */
 }
 </style>

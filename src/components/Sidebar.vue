@@ -40,17 +40,17 @@
         <span></span>
       </button>
     </div>
-    <div class="topnav">
+    <!-- <div class="topnav">
       <a class="active">
-        <router-link :to="{ path: 'Registro' }">registro de usuario</router-link>
+        <router-link :to="{ path: 'Registro' }">Registro de usuario</router-link>
       </a>
       <a>
-        <router-link :to="{ path: '/Usuarios' }">Usuarios</router-link>
+        <router-link :to="{ path: '/Usuarios' }">Login</router-link>
       </a>
       <a>
         <router-link :to="{ path: '/Bienvenidos' }">bienvenidos</router-link>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 

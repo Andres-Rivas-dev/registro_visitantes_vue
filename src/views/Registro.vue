@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Registro de Usuario</h1>
+    <h1 class="form-title">Registro de Visitantes</h1>
     <form @submit.prevent="registerUser" class="user-registration-form">
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" v-model="formData.nombres" required>
@@ -120,5 +120,9 @@ export default {
   background-color: #4caf50;
   color: white;
   text-align: center;
+}
+
+.form-title {
+  text-align: center; /* Centrar el título */
 }
 </style>
